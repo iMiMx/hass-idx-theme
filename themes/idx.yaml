@@ -1,0 +1,123 @@
+#   IIIIIII   DDDDDDD     X     X
+#      I      D      D     X   X
+#      I      D       D     X X     Theme for Home Assistant
+#      I      D       D      X              v0.1.0
+#      I      D       D     X X           by veniplex
+#      I      D      D     X   X
+#   IIIIIII   DDDDDDD     X     X
+
+IDX:
+  ### Colors ###
+  # Primary
+  medium-slate-blue: rgb(129, 98, 226)
+  # Accent
+  tropical-indigo: rgb(175, 138, 251)
+  # Grays & Whites
+  black: rgb(16, 21, 29)
+  rich-black: rgb(23, 31, 43)
+  charcoal: rgb(51, 62, 79)
+  paynes-gray: rgb(93, 106, 125)
+  cadet-gray: rgb(149, 161, 177)
+  alice-blue: rgb(231, 235, 242)
+  ghost-white: rgb(244, 247, 253)
+  white: rgb(255, 255, 255)
+  # Error
+  cardinal: rgb(193, 49, 59)
+  light-red: rgb(250, 123, 124)
+  # Warning
+  copper: rgb(193, 111, 35)
+  # Success
+  dark-spring-green: rgb(0, 123, 73)
+  mint: rgb(45, 190, 132)
+  # Info
+  blue-ncs: rgb(0, 138, 201)
+
+  ### Fonts ###
+  primary-font-family: "JetBrains Mono" # needs to be imported manually
+
+  ### DEFAULTS FOR BOTH MODES ###
+  accent-color: var(--tropical-indigo)
+  # Text
+  text-primary-color: var(--white)
+  disabled-text-color: var(--cadet-gray)
+  # Header
+  app-header-selection-bar-color: var(--medium-slate-blue)
+  # State Color
+  state-inactive-color: var(--cadet-gray)
+  state-binary_sensor-active-color: var(--mint)
+  state-climate-heat-cool-color: var(--mint)
+  state-light-active-color: var(--mint)
+  state-sun-above_horizon-color: var(--copper)
+  state-switch-active-color: var(--mint)
+  # Error, Warning, Success, Info
+  warning-color: var(--copper)
+  sucess-color: var(--mint)
+  info-color: var(--blue-ncs)
+  # Labels & Badges
+  label-badge-red: var(--error-color)
+  label-badge-blue: var(--info-color)
+  label-badge-green: var(--success-color)
+  label-badge-yellow: var(--warning-color)
+  label-badge-grey: var(--cadet-gray)
+
+  modes:
+    ### Light Mode ###
+    light:
+      primary-color: var(--medium-slate-blue)
+      primary-background-color: var(--white)
+      secondary-background-color: var(--alice-blue)
+      divider-color: var(--alice-blue)
+      # Text
+      primary-text-color: var(--charcoal)
+      secondary-text-color: var(--paynes-gray)
+      # Header
+      app-header-background-color: var(--ghost-white)
+      app-header-text-color: var(--charcoal)
+      # Sidebar
+      sidebar-background-color: var(--ghost-white)
+      sidebar-icon-color: var(--charcoal)
+      sidebar-text-color: var(--charcoal)
+      sidebar-selected-icon-color: var(--medium-slate-blue)
+      sidebar-selected-text-color: var(--medium-slate-blue)
+      # State Color
+      state-icon-color: var(--charcoal)
+      state-active-color: var(--mint)
+      # Cards
+      card-background-color: var(--ghost-white)
+      # State Color
+      state-unavailable-color: var(--cardinal)
+      state-icon-error-color: var(--cardinal)
+      # Error, Warning, Success, Info
+      error-color: var(--cardinal)
+      # Labels & Badges
+      input-label-ink-color: var(--medium-slate-blue)
+    ### Dark Mode ###
+    dark:
+      primary-color: var(--tropical-indigo)
+      primary-background-color: var(--rich-black)
+      secondary-background-color: var(--black)
+      divider-color: var(--paynes-gray)
+      # Text
+      primary-text-color: var(--alice-blue)
+      secondary-text-color: var(--cadet-gray)
+      # Header
+      app-header-background-color: var(--black)
+      app-header-text-color: var(--white)
+      # Sidebar
+      sidebar-background-color: var(--black)
+      sidebar-icon-color: var(--alice-blue)
+      sidebar-text-color: var(--alice-blue)
+      sidebar-selected-icon-color: var(--tropical-indigo)
+      sidebar-selected-text-color: var(--tropical-indigo)
+      # State Color
+      state-icon-color: var(--alice-blue)
+      state-active-color: var(--mint)
+      # Cards
+      card-background-color: var(--black)
+      # State Color
+      state-unavailable-color: var(--light-red)
+      state-icon-error-color: var(--light-red)
+      # Error, Warning, Success, Info
+      error-color: var(--light-red)
+      # Labels & Badges
+      input-label-ink-color: var(--tropical-indigo)
