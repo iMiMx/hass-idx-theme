@@ -12,8 +12,11 @@ IDX Theme is available in [HACS (Home Assistant Community Store)](https://hacs.x
 
 1. Open HACS
 2. Go to "Frontend" section
-3. Click the "+" icon
-4. Search for "IDX"
+3. Click the three dots in the top right corner.
+4. Select "Custom Repository".
+5. Paste the link to this repository in the "Repository" field `https://github.com/veniplex/hass-idx-theme`.
+6. As "Category" select "Theme".
+7. Click "Add".
 
 ### Manual
 
