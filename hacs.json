@@ -1,0 +1,6 @@
+{
+    "name": "IDX",
+    "hide_default_branch": true,
+    "homeassistant":"2024.7.1",
+    "hacs": "1.34.0"
+}
