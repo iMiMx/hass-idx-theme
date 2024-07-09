@@ -96,7 +96,7 @@ IDX:
       primary-color: var(--tropical-indigo)
       primary-background-color: var(--rich-black)
       secondary-background-color: var(--black)
-      divider-color: var(--paynes-gray)
+      divider-color: var(--charcoal)
       # Text
       primary-text-color: var(--alice-blue)
       secondary-text-color: var(--cadet-gray)
