@@ -2,6 +2,10 @@
 
 An [IDX](https://idx.google.com/) inspired Theme for Home Assistant.
 
+![GitHub Release](https://img.shields.io/github/v/release/veniplex/hass-idx-theme?label=Version&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/veniplex/hass-idx-theme/total?label=Downloads&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/veniplex/hass-idx-theme/validate.yaml?label=HACS%20Validation&link=https%3A%2F%2Fgithub.com%2Fhacs%2Faction)
+
 ## Installation
 
 ### HACS
