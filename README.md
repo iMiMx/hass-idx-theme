@@ -34,3 +34,7 @@ frontend:
   themes: !include_dir_merge_named themes
   ... # your configuration.
 ```
+
+## Features & Bugs
+
+If you find a bug, if you are missing anything or if you have a suggestion for improvment, please let me know via an Issue.
