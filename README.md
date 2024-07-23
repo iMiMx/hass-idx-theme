@@ -45,3 +45,10 @@ frontend:
 ## Features & Bugs
 
 If you find a bug, if you are missing anything or if you have a suggestion for improvment, please let me know via an [Issue](https://github.com/veniplex/hass-idx-theme/issues).
+
+## Sponsor this project
+
+<a href="https://www.buymeacoffee.com/veniplex" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height=50 ></a>
+<a href="https://www.patreon.com/bePatron?u=135604640"><img src="https://github.com/veniplex/veniplex/blob/main/Support-Me-On-Patreon.svg" height=50 /></a>
+
+<p align="center">Made with <a href="https://wikipedia.org/wiki/Love"><img src="https://api.iconify.design/heroicons-solid:heart.svg?color=%23ff0000" /></a> by <a href="https://github.com/veniplex">@veniplex</a></p>
