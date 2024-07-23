@@ -1,7 +1,7 @@
 #   IIIIIII   DDDDDDD     X     X
 #      I      D      D     X   X
 #      I      D       D     X X     Theme for Home Assistant
-#      I      D       D      X              v1.0.0
+#      I      D       D      X              v1.1.0
 #      I      D       D     X X           by veniplex
 #      I      D      D     X   X
 #   IIIIIII   DDDDDDD     X     X
@@ -60,6 +60,98 @@ IDX:
   label-badge-yellow: var(--warning-color)
   label-badge-grey: var(--cadet-gray)
 
+  ### Xiaomi Vacuum Map Card ###
+  map-card-primary-color: var(--primary-color)
+  map-card-primary-text-color: var(--white)
+  map-card-secondary-text-color: var(--primary-text-color)
+  map-card-tertiary-text-color: var(--primary-text-color)
+  #map-card-disabled-text-color:
+  map-card-zoomer-background: rgb(19, 87, 148) # default Xiaomi Map Extractor background color
+  map-card-big-radius: 10px
+  map-card-small-radius: 10px
+  #map-card-predefined-point-icon-wrapper-size:
+  #map-card-predefined-point-icon-size:
+  #map-card-predefined-point-icon-color:
+  #map-card-predefined-point-icon-color-selected:
+  #map-card-predefined-point-icon-background-color:
+  #map-card-predefined-point-icon-background-color-selected:
+  #map-card-predefined-point-label-color:
+  #map-card-predefined-point-label-color-selected:
+  #map-card-predefined-point-label-font-size:
+  map-card-manual-point-radius: 5px
+  map-card-manual-point-line-color: var(--medium-slate-blue)
+  map-card-manual-point-fill-color: var(--tropical-indigo)
+  map-card-manual-point-line-width: 2px
+  #map-card-manual-path-point-radius:
+  #map-card-manual-path-point-line-color:
+  #map-card-manual-path-point-fill-color:
+  #map-card-manual-path-point-line-width:
+  #map-card-manual-path-line-color:
+  #map-card-manual-path-line-width:
+  #map-card-predefined-rectangle-line-width:
+  #map-card-predefined-rectangle-line-color:
+  #map-card-predefined-rectangle-fill-color:
+  #map-card-predefined-rectangle-line-color-selected:
+  #map-card-predefined-rectangle-fill-color-selected:
+  #map-card-predefined-rectangle-line-segment-line:
+  #map-card-predefined-rectangle-line-segment-gap:
+  #map-card-predefined-rectangle-icon-wrapper-size:
+  #map-card-predefined-rectangle-icon-size:
+  #map-card-predefined-rectangle-icon-color:
+  #map-card-predefined-rectangle-icon-color-selected:
+  #map-card-predefined-rectangle-icon-background-color:
+  #map-card-predefined-rectangle-icon-background-color-selected:
+  #map-card-predefined-rectangle-label-color:
+  #map-card-predefined-rectangle-label-color-selected:
+  #map-card-predefined-rectangle-label-font-size:
+  map-card-manual-rectangle-line-width: 2px
+  map-card-manual-rectangle-line-color: var(--primary-color)
+  map-card-manual-rectangle-fill-color: rgba(175, 138, 251, 0.2)
+  map-card-manual-rectangle-line-color-selected: var(--primary-color)
+  #map-card-manual-rectangle-fill-color-selected:
+  #map-card-manual-rectangle-line-segment-line:
+  map-card-manual-rectangle-line-segment-gap: 6
+  map-card-manual-rectangle-description-color: var(--map-card-primary-text-color)
+  #map-card-manual-rectangle-description-font-size:
+  #map-card-manual-rectangle-description-offset-x:
+  #map-card-manual-rectangle-description-offset-y:
+  #map-card-manual-rectangle-delete-circle-radius:
+  map-card-manual-rectangle-delete-circle-line-color: var(--cardinal)
+  map-card-manual-rectangle-delete-circle-fill-color: var(--cardinal)
+  map-card-manual-rectangle-delete-circle-line-color-selected: var(--cardinal)
+  map-card-manual-rectangle-delete-circle-fill-color-selected: var(--cardinal)
+  map-card-manual-rectangle-delete-circle-line-width: 1px
+  map-card-manual-rectangle-delete-icon-color: var(--white)
+  map-card-manual-rectangle-delete-icon-color-selected: var(--white)
+  #map-card-manual-rectangle-resize-circle-radius:
+  map-card-manual-rectangle-resize-circle-line-color: var(--primary-color)
+  map-card-manual-rectangle-resize-circle-fill-color: var(--primary-color)
+  map-card-manual-rectangle-resize-circle-line-color-selected: var(--primary-color)
+  map-card-manual-rectangle-resize-circle-fill-color-selected: var(--primary-color)
+  map-card-manual-rectangle-resize-circle-line-width: 1px
+  map-card-manual-rectangle-resize-icon-color: var(--white)
+  map-card-manual-rectangle-resize-icon-color-selected: var(--white)
+  #map-card-room-outline-line-color:
+  #map-card-room-outline-line-width:
+  #map-card-room-outline-line-segment-line:
+  #map-card-room-outline-line-segment-gap:
+  #map-card-room-outline-fill-color:
+  #map-card-room-outline-line-color-selected:
+  #map-card-room-outline-fill-color-selected:
+  #map-card-room-icon-wrapper-size:
+  #map-card-room-icon-size:
+  #map-card-room-icon-color:
+  #map-card-room-icon-color-selected:
+  #map-card-room-icon-background-color:
+  #map-card-room-icon-background-color-selected:
+  #map-card-room-label-color:
+  #map-card-room-label-color-selected:
+  #map-card-room-label-font-size:
+  #map-card-toast-successful-icon-color:
+  #map-card-toast-unsuccessful-icon-color:
+  #map-card-transitions-duration:
+  ##############################
+
   modes:
     ### Light Mode ###
     light:
@@ -91,6 +183,13 @@ IDX:
       error-color: var(--cardinal)
       # Labels & Badges
       input-label-ink-color: var(--medium-slate-blue)
+
+      ### Xiaomi Vacuum Map Card ###
+      map-card-secondary-color: var(--alice-blue)
+      map-card-tertiary-color: var(--alice-blue)
+      map-card-ripple-color: var(--tropical-indigo)
+      ##############################
+
     ### Dark Mode ###
     dark:
       primary-color: var(--tropical-indigo)
@@ -121,3 +220,9 @@ IDX:
       error-color: var(--light-red)
       # Labels & Badges
       input-label-ink-color: var(--tropical-indigo)
+
+      ### Xiaomi Vacuum Map Card ###
+      map-card-secondary-color: var(--charcoal)
+      map-card-tertiary-color: var(--charcoal)
+      map-card-ripple-color: var(--medium-slate-blue)
+      ##############################

@@ -8,11 +8,18 @@ An [IDX](https://idx.google.com/) inspired Theme for Home Assistant.
 
 ![IDX Preview Image](https://github.com/veniplex/hass-idx-theme/blob/main/assets/IDX_Preview.png)
 
+## Supported Integrations
+
+| Name | Status |
+| - | - |
+| [Lovelace Vacuum Map card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) by [PiotrMachowski](https://github.com/PiotrMachowski)| :ballot_box_with_check: (Partial) |
+| [Vacuum Card](https://github.com/denysdovhan/vacuum-card) by [denysdovhan](https://github.com/denysdovhan) | :white_check_mark: (Full) |
+
 ## Installation
 
-### HACS
+### Install via Home Assistant Community Store (HACS)
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=veniplex&repository=hass-idx-theme&category=theme)
+[![Open your Home Assistant instance and open this repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=veniplex&repository=hass-idx-theme&category=theme)
 
 IDX Theme is available in [HACS (Home Assistant Community Store)](https://hacs.xyz/).
 
@@ -24,7 +31,7 @@ IDX Theme is available in [HACS (Home Assistant Community Store)](https://hacs.x
 6. As "Category" select "Theme".
 7. Click "Add".
 
-### Manual
+### Install manually
 
 Add the following code to your `configuration.yaml` file (restart required).
 
@@ -34,3 +41,7 @@ frontend:
   themes: !include_dir_merge_named themes
   ... # your configuration.
 ```
+
+## Features & Bugs
+
+If you find a bug, if you are missing anything or if you have a suggestion for improvment, please let me know via an [Issue](https://github.com/veniplex/hass-idx-theme/issues).
