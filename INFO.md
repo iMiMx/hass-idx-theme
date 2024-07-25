@@ -1,6 +1,6 @@
 # IDX Theme
 
-An [IDX](https://idx.google.com/) inspired Theme for Home Assistant.
+A [Google IDX](https://idx.google.com/) inspired theme for Home Assistant.
 
 [![GitHub Release](https://img.shields.io/github/v/release/veniplex/hass-idx-theme?label=Version&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)](https://github.com/veniplex/hass-idx-theme/releases)
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/veniplex/hass-idx-theme/total?label=Downloads&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)](https://github.com/veniplex/hass-idx-theme/releases)
