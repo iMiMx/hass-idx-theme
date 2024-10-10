@@ -1,7 +1,7 @@
 #   IIIIIII   DDDDDDD     X     X
 #      I      D      D     X   X
 #      I      D       D     X X     Theme for Home Assistant
-#      I      D       D      X              v1.1.0
+#      I      D       D      X              v1.1.1
 #      I      D       D     X X           by veniplex
 #      I      D      D     X   X
 #   IIIIIII   DDDDDDD     X     X
@@ -226,3 +226,7 @@ IDX:
       map-card-tertiary-color: var(--charcoal)
       map-card-ripple-color: var(--medium-slate-blue)
       ##############################
+
+      ### Mushroom Cards ###
+      rgb-primary-text-color: 255, 255, 255 # Fixes #1: Background color of inactive buttons
+      ######################
