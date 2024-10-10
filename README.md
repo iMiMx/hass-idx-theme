@@ -3,17 +3,16 @@
 A [Google IDX](https://idx.google.com/) inspired theme for Home Assistant.
 
 [![GitHub Release](https://img.shields.io/github/v/release/veniplex/hass-idx-theme?label=Version&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)](https://github.com/veniplex/hass-idx-theme/releases)
-[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/veniplex/hass-idx-theme/total?label=Downloads&link=https%3A%2F%2Fgithub.com%2Fveniplex%2Fhass-idx-theme%2Freleases)](https://github.com/veniplex/hass-idx-theme/releases)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/veniplex/hass-idx-theme/validate.yaml?label=HACS%20Validation&link=https%3A%2F%2Fgithub.com%2Fhacs%2Faction)](https://github.com/hacs/action)
 
 ![IDX Preview Image](https://github.com/veniplex/hass-idx-theme/blob/main/assets/IDX_Preview.png)
 
 ## Supported Integrations
 
-| Name | Status |
-| - | - |
+| Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Status                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | [Lovelace Vacuum Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) by [PiotrMachowski](https://github.com/PiotrMachowski) </br> <details><summary>Preview</summary><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/lovelace-xiaomi-vacuum-map-card_light.png" alt="Preview Lovelace Vacuum Map Card Light" /><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/lovelace-xiaomi-vacuum-map-card_dark.png" alt="Preview Lovelace Vacuum Map Card Dark" /></details> | :ballot_box_with_check: (Partial) |
-| [Vacuum Card](https://github.com/denysdovhan/vacuum-card) by [denysdovhan](https://github.com/denysdovhan) </br> <details><summary>Preview</summary><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/vacuum-card_light.png" alt="Preview Vacuum Card Light" /><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/vacuum-card_dark.png" alt="Preview Vacuum Card Dark" /></details> | :white_check_mark: (Full) |
+| [Vacuum Card](https://github.com/denysdovhan/vacuum-card) by [denysdovhan](https://github.com/denysdovhan) </br> <details><summary>Preview</summary><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/vacuum-card_light.png" alt="Preview Vacuum Card Light" /><img width=300 src="https://github.com/veniplex/hass-idx-theme/blob/main/assets/vacuum-card_dark.png" alt="Preview Vacuum Card Dark" /></details>                                                                                                             | :white_check_mark: (Full)         |
 
 ## Installation
 
