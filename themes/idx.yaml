@@ -183,6 +183,9 @@ IDX:
       error-color: var(--cardinal)
       # Labels & Badges
       input-label-ink-color: var(--medium-slate-blue)
+      ## MOD: Transaprent input_select
+      input-fill-color: 'rgba(0, 0, 0, 0)'                                 
+      input-disabled-fill-color: 'rgba(0, 0, 0, 0)'
 
       ### Xiaomi Vacuum Map Card ###
       map-card-secondary-color: var(--alice-blue)
@@ -220,6 +223,9 @@ IDX:
       error-color: var(--light-red)
       # Labels & Badges
       input-label-ink-color: var(--tropical-indigo)
+      ## MOD: Transaprent input_select
+      input-fill-color: 'rgba(0, 0, 0, 0)'                                 
+      input-disabled-fill-color: 'rgba(0, 0, 0, 0)'      
 
       ### Xiaomi Vacuum Map Card ###
       map-card-secondary-color: var(--charcoal)
