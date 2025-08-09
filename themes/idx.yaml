@@ -151,6 +151,26 @@ IDX:
   #map-card-toast-unsuccessful-icon-color:
   #map-card-transitions-duration:
   ##############################
+  # Alarm
+  state-alarm_control_panel-armed_away-color: '#e45e65' # red
+  state-alarm_control_panel-armed_night-color: '#039be5' # blue
+  state-alarm_control_panel-armed_custom_bypass-color: '#e0b400' # yellow
+  state-alarm_control_panel-arming-color: '#ff8000' # orange
+  state-alarm_control_panel-disarmed-color: '#0da035' # green
+  state-alarm_control_panel-disarming-color: '#ff8000' # orange
+  state-alarm_control_panel-pending-color: '#ff8000' # orange
+  state-alarm_control_panel-triggered-color: '#e45e65' # red
+
+  # Button PBS
+  pbs-button-color: "var(--primary-text-color)"
+  pbs-button-rgb-color: "var(--primary-text-color)"
+  pbs-button-rgb-state-color: "var(--primary-text-color)"
+  pbs-button-rgb-default-color: "var(--primary-text-color)"
+  rgb-state-default-color: "var(--primary-text-color)"
+  pbs-button-rgb-fallback: "var(--primary-text-color)"
+
+  paper-item-icon-color: "var(--primary-text-color)"
+
 
   modes:
     ### Light Mode ###
@@ -159,6 +179,18 @@ IDX:
       primary-background-color: var(--white)
       secondary-background-color: var(--alice-blue)
       divider-color: var(--alice-blue)
+      #
+      ha-color-primary-0:  '#0b051e'   # Near-black with cool purple undertone
+      ha-color-primary-1:  '#180c3a'   # Very dark violet
+      ha-color-primary-20: '#2e1870'   # Deep royal purple
+      ha-color-primary-30: '#4624a5'   # Bold violet
+      ha-color-primary-40: '#8162e2'   # Base (-40) vivid purple (rgb(129, 98, 226))
+      ha-color-primary-50: '#9d84e7'   # Lighter lavender tone
+      ha-color-primary-60: '#b7a5eb'   # Soft lilac, good for highlights
+      ha-color-primary-70: '#d0c6f1'   # Pastel lavender, ideal for backgrounds
+      ha-color-primary-80: '#e2dbf7'   # Very light purple
+      ha-color-primary-90: '#f1effc'   # Pale icy lavender, near-white
+      ha-color-primary-95: '#f8f7fe'   # Almost white with faint purple tint
       # Text
       primary-text-color: var(--charcoal)
       secondary-text-color: var(--paynes-gray)
@@ -193,12 +225,34 @@ IDX:
       map-card-ripple-color: var(--tropical-indigo)
       ##############################
 
+      # Alarm
+      state-alarm_control_panel-armed_away-color: '#e45e65' # red
+      state-alarm_control_panel-armed_night-color: '#039be5' # blue
+      state-alarm_control_panel-armed_custom_bypass-color: '#e0b400' # yellow
+      state-alarm_control_panel-arming-color: '#ff8000' # orange
+      state-alarm_control_panel-disarmed-color: '#0da035' # green
+      state-alarm_control_panel-disarming-color: '#ff8000' # orange
+      state-alarm_control_panel-pending-color: '#ff8000' # orange
+      state-alarm_control_panel-triggered-color: '#e45e65' # red      
+
     ### Dark Mode ###
     dark:
       primary-color: var(--tropical-indigo)
       primary-background-color: var(--rich-black)
       secondary-background-color: var(--black)
       divider-color: var(--charcoal)
+      #
+      ha-color-primary-0:  '#1f1144'   # Near-black with cool purple undertone
+      ha-color-primary-1:  '#2e1a63'   # Very dark violet
+      ha-color-primary-20: '#5631a8'   # Deep royal purple
+      ha-color-primary-30: '#7a4edb'   # Bold violet
+      ha-color-primary-40: '#af8afb'   # Base (-40) vivid purple
+      ha-color-primary-50: '#c6abfc'   # Lighter lavender tone
+      ha-color-primary-60: '#d1bcfd'   # Soft lilac, good for highlights
+      ha-color-primary-70: '#e2d5fe'   # Pastel lavender, ideal for backgrounds
+      ha-color-primary-80: '#eee6fe'   # Very light purple
+      ha-color-primary-90: '#f9f7ff'   # Pale icy lavender, near-white
+      ha-color-primary-95: '#fcfbff'   # Almost white with faint purple tint
       # Text
       primary-text-color: var(--alice-blue)
       secondary-text-color: var(--cadet-gray)
@@ -236,3 +290,13 @@ IDX:
       ### Mushroom Cards ###
       rgb-primary-text-color: 255, 255, 255 # Fixes #1: Background color of inactive buttons
       ######################
+
+      # Alarm
+      state-alarm_control_panel-armed_away-color: '#e45e65' # red
+      state-alarm_control_panel-armed_night-color: '#039be5' # blue
+      state-alarm_control_panel-armed_custom_bypass-color: '#e0b400' # yellow
+      state-alarm_control_panel-arming-color: '#ff8000' # orange
+      state-alarm_control_panel-disarmed-color: '#0da035' # green
+      state-alarm_control_panel-disarming-color: '#ff8000' # orange
+      state-alarm_control_panel-pending-color: '#ff8000' # orange
+      state-alarm_control_panel-triggered-color: '#e45e65' # red      
